@@ -397,6 +397,10 @@ strong{
     padding: 10px 30px;
     font-weight: bold;
 }
+.footer button a{
+    text-decoration: none;
+    color: white;
+}
 /* styling gallery page */
 /* styling gallery page */
 /* styling gallery page */
