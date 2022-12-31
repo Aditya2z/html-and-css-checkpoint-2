@@ -62,8 +62,10 @@ blueish : #3998DB;
 */
 
 /* general styling */
-*{
+body{
     font-family: 'Open Sans', sans-serif;
+}
+*{
     box-sizing: border-box;
 }
 .flex{
@@ -154,8 +156,10 @@ nav{
 /* hero section */
 /* hero section */
 .hero{
-    background-image: url(../media/banner.jpg);
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url(../media/banner.jpg) 50% 50% no-repeat;
+    width: 100%;
     height: 110vh;
+    object-fit: cover;
     flex-direction: column;
     text-align: center;
     color: white;
@@ -235,6 +239,7 @@ nav{
 .portfolio img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .portfolio hr{
     width: 75%;
